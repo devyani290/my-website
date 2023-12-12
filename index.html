@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Devyani Lamichhane</title>
+    <!-- CSS link -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Favicon link -->
+    <link rel="icon" href="favicon.png" type="image/png">
+  </head>
+  <body>
+    <div class="hero">
+      <nav>
+        <!-- Logo link to the home page -->
+        <a href="index.html">
+          <img src="logo.png" class="logo" alt="Logo" />
+        </a>
+        <!-- Home link to reload the same page using JavaScript -->
+        <ul>
+          <li><a href="#" onclick="reloadPage()">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Gallery</a></li>
+        </ul>
+      </nav>
+
+      <div class="content">
+        <h1>Hello, I’m <span>Devyani</span></h1>
+        <p>
+          A curious soul on a journey of discovery. Exploring new ideas,
+          embracing challenges, and finding joy in the process of learning.
+          Join me as I navigate the wonders of life.
+        </p>
+      </div>
+    </div>
+
+    <!-- JavaScript function to reload the current page -->
+    <script>
+      function reloadPage() {
+        location.reload();
+      }
+    </script>
+  </body>
+</html>
